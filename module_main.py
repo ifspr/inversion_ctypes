@@ -11,8 +11,8 @@ from ctypes import c_int, c_double, POINTER, cdll, Structure, byref
 from numpy.ctypeslib import as_ctypes
 from platform import system
 
-from module_util import invert_lu,cov_mat_msr,cloud_ad,subad_frac,calc_nre,ext_coeff_air
-from module_mwr import calc_tau_gas,calc_tau_cloud_tb
+from module_utils import *
+from module_mwr import *
 
 
 class ms_config(Structure):
